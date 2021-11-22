@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+    color: snow;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+
+header {
+    padding: 0 .5rem;
+    max-height: 4rem;
+    height: 10%;
+}
+
+main {
+    height: 80%;
+}
+
+
+footer {
+    height:10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    font-size: .5rem;
+}
+
+
+/* REUSABLE CLASSES */
+
+.flex { display: flex;}
+.justify-center {justify-content: center;}
+.justify-between {justify-content: space-between;}
+.align-center {align-items: center;}
+.column {flex-direction: column;}
+.text-center {text-align: center;}
