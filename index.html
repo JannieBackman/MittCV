@@ -12,26 +12,34 @@
 <body>
 
    <div class="header">
-    <span class="material-icons">menu</span>
+        <button class="open-button material-icons" onclick="openSideNav()">menu<button>
    </div>
-  <div class="sidebar">
-      Om mig
-      Jobb
-      Studier
-      Portfolio
+  <div id="mySideNav" class="side-nav flex column">
+      <a href="#" class="close-button" onclick="closeSideNav()">×</a>
+      <a href="#" class="nav">Om mig</a>
+      <a href="#" class="nav">Jobb</a>
+      <a href ="#" class="nav">Studier</a>
+      <a href ="#" class="nav">Portfolio</a>
   </div> 
 
   <main>
-      <div class ="content">
-          <h2>Jannie Bäckman Kuurne</h2>
-          <img>
-          <ul>
-              <li>34år</li>
-          </ul>
-      </div>
+      <div class ="content flex column align-center">
+          <h2 class="text-center">Jannie Bäckman Kuurne</h2>
+          <img src="/persona_2.png" width="25%">
+          <ul class="text-center">
+                <li>34år</li><br>
+                <li>Kungsbacka</li><br>
+                <li>Promenader, Familj, Vänner, Kaffe, Tv-serier, Quiz</li><br>
+                <li>Studerar till Frontend utvecklare</li><br>
+            </ul>
+          
+        </div>
   </main>
-  <footer>
-      <span>Kontakt</span>
+  <footer class="text-center">
+        <span><strong>Kontakt:</strong><br>
+            Jannie Bäckman Kuurne<br>
+            jannie.backman@gmail.com<br>
+        </span>
   </footer> 
 </body>
 </html>

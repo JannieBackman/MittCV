@@ -22,6 +22,12 @@ main {
     height: 80%;
 }
 
+ul {
+    padding: 0 1rem;
+}
+li {
+    list-style: none;
+}
 
 footer {
     height:10%;
