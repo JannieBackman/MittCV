@@ -20,6 +20,7 @@
     /* DESKTOP */
     h2 {
        padding: 2rem;
+
     }   
     .main-content {
        flex-direction: row;
@@ -46,9 +47,7 @@
               
     }
 
-    .header-timeline {
-        display: none;
-    }
+   
     button {
         height: 2rem;
         width: 2rem;

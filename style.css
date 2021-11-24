@@ -9,6 +9,7 @@ body {
     color: snow;
     overflow-x: hidden;
     width: 100vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
@@ -91,7 +92,9 @@ main {
 }
 
 
-
+h2 {
+    letter-spacing: 5px;
+}
 .main-content{
     display: flex;
     flex-direction: column;
@@ -112,7 +115,11 @@ img {
 .contact-main {
     display: none;
 }
-
+.email-contact  {
+    font-size: 1rem;
+    color: snow;
+    text-decoration: none;
+}
 /* Timeline */
 
 
@@ -121,7 +128,6 @@ img {
     color: snow;
     text-align: center;
     margin-top: 8%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 5px;
 }
 
