@@ -14,8 +14,10 @@ function closeSideNav() {
     document.getElementById("smaller-screens").style.width="0;"
 }
 
-function showHiddenInfo(){
-    let info = document.getElementById("itemOne");
+function showHiddenInfo(event){
+    console.log(event.target);
+    let info = event.target.nextSibling;
+   console.log(info);
     if (info.style.display === "none") {
         info.style.display ="block";
     } else {

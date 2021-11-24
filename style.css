@@ -165,16 +165,18 @@ button {
 
 /* displays */
 
-.item-info {
+p {
     position: absolute;
     bottom: 15%;
-    left: 14.5%;
+    left: 0;
     color: snow;
     font-size: .5rem;
 }
 
 
-
+.container {
+    position: relative;
+}
 
 /* MEDIA QUARIES */
 
