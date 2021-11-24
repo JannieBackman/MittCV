@@ -13,3 +13,12 @@ function closeSideNav() {
     document.getElementById("mySideNav").style.width ="0";
     document.getElementById("smaller-screens").style.width="0;"
 }
+
+function showHiddenInfo(){
+    let info = document.getElementById("itemOne");
+    if (info.style.display === "none") {
+        info.style.display ="block";
+    } else {
+        info.style.display ="none";
+    }
+}
