@@ -1,3 +1,5 @@
+window.onload;
+
 
 /** Makes the SideNav slide out when user clicks on hamburger-menu */
 
@@ -21,9 +23,10 @@ function closeSideNav() {
  */
  function showHiddenInfo(event){
     let info = event.target.nextElementSibling;
-    if (info.style.display === "none") {
-        info.style.display ="block";
+    if (info.style.display ==='none') {
+        info.style.display ='block';
     } else {
-        info.style.display ="none";
+        info.style.display ='none';
     }
 }
+

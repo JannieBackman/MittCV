@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media-quaries.css">
     <script defer src="/script.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2ee9549404.js" crossorigin="anonymous"></script>
@@ -21,11 +22,12 @@
         <!-- TopBar-Desktop -->
         <div class="desktop-screens flex justify-between">
             <div class="top-links">
-                <a href="#" class="nav">Om mig</a>
-                <a href="#" class="nav">Jobb</a>
-                <a href="#" class="nav">Studier</a>
-                <a href="#" class="nav">Portfolio</a>
-                <a href="#" class="nav">Kontakt</a>
+                <a href="/index.html" class="nav"><i class="fas fa-home"></i></a>
+                <a href="/about.html" class="nav">Om mig</a>
+                <a href="/work.html" class="nav">Jobb</a>
+                <a href="/education.html" class="nav">Studier</a>
+                <a href="/portfolio.html" class="nav">Portfolio</a>
+                <a href="/contact.html" class="nav">Kontakt</a>
             </div>
             <div class="social-media">
                 <a href="https://github.com/Jannie87?tab=repositories" class="github"><i class="fab fa-github"></i></a>
@@ -37,10 +39,11 @@
     <!-- SideBar-Mobile -->
     <div id="mySideNav" class="side-nav flex column">
         <a href="#" class="close-button" onclick="closeSideNav()">×</a>
-        <a href="#" class="nav">Om mig</a>
-        <a href="#" class="nav">Jobb</a>
-        <a href="#" class="nav">Studier</a>
-        <a href="#" class="nav">Portfolio</a>
+        <a href="/index.html" class="nav"><i class="fas fa-home"></i></a>
+        <a href="/about.html" class="nav">Om mig</a>
+        <a href="/work.html" class="nav">Jobb</a>
+        <a href="/education.html" class="nav">Studier</a>
+        <a href="/portfolio.html" class="nav">Portfolio</a>
         <div class="contact-side">
             <a href="https://github.com/Jannie87?tab=repositories" class="github"><i class="fab fa-github"></i></a>
             <a href="#" class="linkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -63,37 +66,41 @@
             </p>
         </div>
         <!-- Timeline -->
-        <h1>TimeLine</h1>
-        <div class="timeline"></div> <!-- time-area -->
+        <div class="timeline flex column align-center">
+            <h2 class="header-timeline">Erfarenhet</h2>
+            <div class="line"></div> <!-- time-area -->
             <div class="content-timeline">
                 <div class="start-end"></div>
                 <div class="circle-button">
                     <button onclick="showHiddenInfo(event)"><i class="fas fa-user-graduate"></i></button>
-                    <p id="itemOne" class="item-info"> 2003-2006 <br>IT/DESIGN<br> J.A Zachrissons gymnasium </p>
+                    <p id="info" class="item-info"> 2003-2006 <br>IT/DESIGN<br> J.A Zachrissons gymnasium </p>
                 </div>
                 <div class="circle-button">
                     <button onclick="showHiddenInfo(event)"><i class="fas fa-user-graduate"></i></button>
-                    <p id="itemOne" class="item-info"> 2007-2008 <br>Resesäljare<br> Löftadalens Folkhögskola </p>
+                    <p id="info" class="item-info"> 2007-2008 <br>Resesäljare<br> Löftadalens Folkhögskola </p>
                 </div>
                 <div class="circle-button">
                     <button onclick="showHiddenInfo(event)"><i class="fas fa-building"></i></button>
-                    <p id="itemOne" class="item-info"> 2008-2010 <br>Turistbyrå Administratör<br>Kungsbacka Turistbyrp</p>
+                    <p id="info" class="item-info"> 2008-2010 <br>Turistbyrå Administratör<br>Kungsbacka Turistbyrå
+                    </p>
                 </div>
                 <div class="circle-button">
                     <button onclick="showHiddenInfo(event)"><i class="fas fa-building"></i></button>
-                    <p id="itemOne" class="item-info"> 2010-2016<br>Support<br> iTicket AB </p>
+                    <p id="info" class="item-info"> 2010-2016<br>Support<br> iTicket AB </p>
                 </div>
                 <div class="circle-button">
                     <button onclick="showHiddenInfo(event)"><i class="fas fa-building"></i></button>
-                    <p id="itemOne" class="item-info"> 2018-2021 <br>IT-Support<br>Fastighet & IT Kompetens Sverige AB </p>
+                    <p id="info" class="item-info"> 2018-2021 <br>IT-Support<br>Fastighet & IT Kompetens AB
+                    </p>
                 </div>
                 <div class="circle-button">
                     <button onclick="showHiddenInfo(event)"><i class="fas fa-user-graduate"></i></button>
-                    <p id="itemOne" class="item-info">2021- <br>FrontEnd Devenloper<br> Medieinstitutet Göteborg</p>
+                    <p id="info" class="item-info">2021- <br>FrontEnd Devenloper<br> Medieinstitutet Göteborg</p>
                 </div>
                 <div class="start-end"></div>
             </div>
         </div>
+
     </main>
 
 

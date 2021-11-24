@@ -1,0 +1,67 @@
+/* MEDIA QUARIES */
+
+@media (min-width: 768px) {
+   
+
+    .content-info {
+        font-size: 1.1rem;
+    }
+    img {
+    
+        width: 300px;
+    }
+}
+@media (min-width: 900px) {
+    
+    .smaller-screens {
+       display: none;
+    }
+
+    /* DESKTOP */
+    h2 {
+       padding: 2rem;
+    }   
+    .main-content {
+       flex-direction: row;
+
+    }
+    .content-info {
+        padding: 0 5rem;
+    }
+    .contact-main {
+        display: flex;
+        color: snow;
+    }
+    .desktop-screens {
+        padding: 1rem;
+    }
+    .desktop-screens a {
+        display: unset;
+        padding: 1rem;
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 600;     
+              
+    }
+
+    .header-timeline {
+        display: none;
+    }
+    button {
+        height: 2rem;
+        width: 2rem;
+        border-radius: 50%;
+        border: none;
+    }
+    .item-info {
+        margin-top: 1rem;
+        color: snow;
+        font-weight: bold;
+        font-size: 1rem;
+        display: none;
+       
+    }
+
+
+}

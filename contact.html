@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/media-quaries.css">
+    <script defer src="/script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2ee9549404.js" crossorigin="anonymous"></script>
+    <title>CV-kontakt</title>
+</head>
+
+<body>
+    <header>
+        <!-- Hamburger-menu-Mobile -->
+        <div class="smaller-screens">
+            <button class=" open-button material-icons" onclick="openSideNav()">menu</button>
+        </div>
+        <!-- TopBar-Desktop -->
+        <div class="desktop-screens flex justify-between">
+            <div class="top-links">
+                <a href="/index.html" class="nav"><i class="fas fa-home"></i></a>
+                <a href="/about.html" class="nav">Om mig</a>
+                <a href="/work.html" class="nav">Jobb</a>
+                <a href="/education.html" class="nav">Studier</a>
+                <a href="/portfolio.html" class="nav">Portfolio</a>
+                <a href="/contact.html" class="nav">Kontakt</a>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/Jannie87?tab=repositories" class="github"><i class="fab fa-github"></i></a>
+                <a href="#" class="linkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+    </header>
+    <!-- SideBar-Mobile -->
+    <div id="mySideNav" class="side-nav flex column">
+        <a href="#" class="close-button" onclick="closeSideNav()">×</a>
+        <a href="/index.html" class="nav"><i class="fas fa-home"></i></a>
+        <a href="/about.html" class="nav">Om mig</a>
+        <a href="/work.html" class="nav">Jobb</a>
+        <a href="/education.html" class="nav">Studier</a>
+        <a href="/portfolio.html" class="nav">Portfolio</a>
+        <div class="contact-side">
+            <a href="https://github.com/Jannie87?tab=repositories" class="github"><i class="fab fa-github"></i></a>
+            <a href="#" class="linkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:jannie.backman@gmail.com" class="email"><i class="fas fa-envelope"></i></a>
+        </div>
+
+    </div>
