@@ -120,6 +120,15 @@ img {
     color: snow;
     text-decoration: none;
 }
+
+.error-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
 /* Timeline */
 
 
