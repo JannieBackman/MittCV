@@ -109,9 +109,11 @@ img {
 }
 
 .content-info {
-    padding: 1rem;
+    
+    width: 70%;
     
 }
+
 .contact-main {
     display: none;
 }
@@ -128,6 +130,8 @@ img {
     flex-direction: column;
    
 }
+
+
 .more-info {
     display: none;
 }

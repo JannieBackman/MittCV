@@ -41,7 +41,7 @@ function readMore() {
         btnText.innerHTML ="Läs mer";
         moreText.style.display="none";
     } else {
-       more.style.display = "none";
+         more.style.display = "none";
         btnText.innerHTML = "Minimera";
         moreText.style.display ="inline-flex";
     }
