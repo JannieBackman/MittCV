@@ -1,4 +1,12 @@
 /* MEDIA QUARIES */
+@media (max-width:375px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+    .content-info {
+        font-size: .9rem;
+    }
+}
 
 @media (min-width: 768px) {
    
@@ -18,6 +26,9 @@
     }
 
     /* DESKTOP */
+    header {
+        height: unset;
+    }
     h2 {
        padding: 2rem;
 

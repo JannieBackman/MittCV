@@ -14,6 +14,7 @@ body {
 
 header {
     background-color: black;
+    height: 3rem;
 }
 
 /* Desktop */
@@ -94,6 +95,8 @@ main {
 
 h2 {
     letter-spacing: 5px;
+    padding-top: 2rem;
+   
 }
 .main-content{
     display: flex;
@@ -110,7 +113,7 @@ img {
 
 .content-info {
     
-    width: 70%;
+    width: 80%;
     
 }
 
@@ -131,6 +134,11 @@ img {
    
 }
 
+
+p .fas {
+    padding: 1rem 0;
+
+}
 
 .more-info {
     display: none;
