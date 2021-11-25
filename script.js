@@ -24,9 +24,28 @@ function closeSideNav() {
  function showHiddenInfo(event){
     let info = event.target.nextElementSibling;
     if (info.style.display ==='none') {
-        info.style.display ='block';
+        info.style.display ='flex';
     } else {
         info.style.display ='none';
     }
+}
+/**
+ * Function that displays and minimize info on buttonclick.
+ */
+function readMore() {
+    let more =document.getElementById ("more");
+    let moreText = document.getElementById ("more-info");
+    let btnText = document.getElementById("btn-more");
+    if (more.style.display === "none") {
+        more.style.display="inline-flex ";
+        btnText.innerHTML ="Läs mer";
+        moreText.style.display="none";
+    } else {
+       more.style.display = "none";
+        btnText.innerHTML = "Minimera";
+        moreText.style.display ="inline-flex";
+    }
+
+    
 }
 
