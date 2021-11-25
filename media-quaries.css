@@ -1,4 +1,5 @@
 /* MEDIA QUARIES */
+
 @media (max-width:375px) {
     h2 {
         font-size: 1.2rem;
@@ -33,13 +34,10 @@
        padding: 2rem;
 
     }   
-    .main-content {
-       flex-direction: row;
-
-    }
-    
+     
     .content-info {
         padding: 0 5rem;
+        width: 70%;
     }
     .contact-main {
         display: flex;

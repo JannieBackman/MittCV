@@ -1,4 +1,3 @@
-window.onload;
 
 
 /** Makes the SideNav slide out when user clicks on hamburger-menu */
@@ -30,7 +29,7 @@ function closeSideNav() {
     }
 }
 /**
- * Function that displays and minimize info on buttonclick.
+ * Function that displays and minimize readMore info on buttonclick.
  */
 function readMore() {
     let more =document.getElementById ("more");

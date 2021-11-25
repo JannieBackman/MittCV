@@ -17,6 +17,7 @@ header {
     height: 3rem;
 }
 
+
 /* Desktop */
 
 .desktop-screens a {
@@ -112,7 +113,6 @@ img {
 }
 
 .content-info {
-    
     width: 80%;
     
 }
@@ -126,14 +126,15 @@ img {
     text-decoration: none;
 }
 
+/* Portfolio page - not available right now */
 .error-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-   
+    flex-direction: column;   
 }
 
+/* Read More */
 
 p .fas {
     padding: 1rem 0;
@@ -201,10 +202,12 @@ button {
     width: 1.5rem;
     border-radius: 50%;
     border: none;
+    cursor: pointer;
 }
 
 .circle-button {
     position: relative;
+    cursor: pointer;   
 }
 
 /* displays */
@@ -215,7 +218,7 @@ button {
     font-weight: bold;
     font-size: .5rem;
     display: none;
-   
+    
 }
 
 
