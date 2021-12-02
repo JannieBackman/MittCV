@@ -1,6 +1,11 @@
+window.addEventListener('load', (event) => {
+      });
 
 
-/** Makes the SideNav slide out when user clicks on hamburger-menu */
+/**
+ * Makes the SideNav slide out when user clicks on hamburger-menu 
+ * @param {*} event 
+ */
 
 function openSideNav(event) {
     document.getElementById("mySideNav").style.width = "250px";
@@ -16,6 +21,7 @@ function closeSideNav() {
 }
 
 
+
 /**
  * Function that displays the next sibling p-tag on buttonclick.
  * @param {*} event 
@@ -28,6 +34,7 @@ function closeSideNav() {
         info.style.display ='none';
     }
 }
+
 /**
  * Function that displays and minimize readMore info on buttonclick.
  */
