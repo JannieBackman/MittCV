@@ -1,6 +1,6 @@
 /* MEDIA QUARIES */
 
-@media (max-width:375px) {
+@media (max-width:500px) {
     h2 {
         font-size: 1rem;
         letter-spacing: 4px;
@@ -8,11 +8,12 @@
     .content-info {
         font-size: .9rem;
     }
-    .contact-side {
-       
-    }
-}
 
+    .timeline {
+        display: none;
+    }
+  
+}
 @media (min-width: 768px) {
    
 
@@ -75,6 +76,4 @@
         display: none;
        
     }
-
-
 }
