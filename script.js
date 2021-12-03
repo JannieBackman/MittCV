@@ -1,5 +1,4 @@
-window.addEventListener('load', (event) => {
-      });
+
 
 
 /**
@@ -27,18 +26,16 @@ function closeSideNav() {
  * @param {*} event 
  */
  function showHiddenInfo(event){
-    let info = event.target.nextElementSibling;
-    if (info.style.display ==='none') {
-        info.style.display ='flex';
-    } else {
-        info.style.display ='none';
-    }
-}
+    let info = event.target.querySelector('p');
+    if (!info) return;
+    info.classList.toggle('show');
+ }
 
 /**
  * Function that displays and minimize readMore info on buttonclick.
  */
 function readMore() {
+    
     let more =document.getElementById ("more");
     let moreText = document.getElementById ("more-info");
     let btnText = document.getElementById("btn-more");
