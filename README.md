@@ -15,4 +15,4 @@ Beskrivning:
 
 
 GitHub Pages: 
-[DEMO] https://jannie87.github.io/MittCV/
+[DEMO] https://JannieBackman.github.io/MittCV/
